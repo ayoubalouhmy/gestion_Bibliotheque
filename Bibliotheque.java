@@ -1,4 +1,3 @@
-
 import java.util.ArrayList;
 public class Bibliotheque {
     private String nom;
@@ -36,6 +35,4 @@ public class Bibliotheque {
             emprunt.AfficherInfos();
         }
     }
-
-    
 }

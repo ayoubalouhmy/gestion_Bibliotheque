@@ -5,7 +5,7 @@ class Livre {
     private int annee_publication;
     private boolean disponible;
 
-    public Livre(int id, String title , String auteur , int annee_publication , boolean disponible){
+    public Livre(int id, String title , String auteur , int annee_publication ){
         this.id=id;
         this.title=title;
         this.auteur=auteur;
