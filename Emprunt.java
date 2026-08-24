@@ -24,8 +24,8 @@ public class Emprunt {
     // setters
     String setStatus(String Status){return this.Status = Status;};
     void AfficherInfos(){
-        System.out.println("livre : " + livre.gettitle() +"\n member : " + member.getPrenom() + member.getNom()
-        + "\n DateEmprunt : " + DateEmprunt + "DateRetour : " + DateRetour + "Status : " + Status);
+        System.out.println("livre : " + livre.gettitle() +"\nmember : " + member.getPrenom() + member.getNom()
+        + "\nDateEmprunt : " + DateEmprunt + "\nDateRetour : " + DateRetour + "\nStatus : " + Status);
     };
     void RetournerLivre(String DateRetour){
         this.Status = "Retourner";

@@ -21,18 +21,23 @@ public class Bibliotheque {
     void AfficherLivres(){System.out.println("===== Livres ===== ");
         for(Livre livre : livres){
             livre.AfficherInfos();
+            System.out.println();
         };
     };
     void AfficherMembers(){
         System.out.println("===== Members =====");
         for(Member member : members){
             member.AfficherInfos();
+            System.out.println();
+
         }
     }
     void AfficherEmprunts(){
         System.out.println("===== Emprunts =====");
         for (Emprunt emprunt : emprunts){
             emprunt.AfficherInfos();
+            System.out.println();
+
         }
     }
 }

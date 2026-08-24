@@ -21,6 +21,6 @@ public class Member {
     String setEmail(String email){return this.email = email;};
 
     void AfficherInfos(){
-        System.out.println("nom : " + nom +"\n prenom : " + prenom + "\n email : " + email);
+        System.out.println("nom : " + nom +"\nprenom : " + prenom + "\nemail : " + email);
     };
 }

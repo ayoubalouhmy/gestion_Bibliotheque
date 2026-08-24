@@ -22,6 +22,6 @@ class Livre {
     boolean setdisponibiliter(boolean disponible){return this.disponible=disponible;};
 
     void AfficherInfos(){
-        System.out.println("title : " +title +"\n auteur : "+ auteur + "\n annee_publication : "+ annee_publication +"\n disponible : "+ disponible);
+        System.out.println("title : " +title +"\nauteur : "+ auteur + "\nannee_publication : "+ annee_publication +"\ndisponible : "+ disponible);
     };    
 }
